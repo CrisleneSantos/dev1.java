@@ -1,6 +1,8 @@
 package com.Services;
+import org.springframework.stereotype.Service;
 import com.Entities.Order;
 
+@Service
 public class OrderService {
 	
 	public double Total(Order order,  ShippingService shippingService) {
